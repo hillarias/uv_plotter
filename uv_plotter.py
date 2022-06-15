@@ -8,7 +8,7 @@ from io import StringIO
 from PIL import Image
 
 
-
+st.set_page_config(layout="wide")
 st.title('UV VisPlotter V1') 
 
 filter_name = st.text_input('Type a condition you would  like to look  at, clear this area if you want to see all your data!', 'Ex: pH 7.0')

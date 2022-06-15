@@ -12,7 +12,7 @@ from PIL import Image
 st.title('UV VisPlotter V1') 
 
 filter_name = st.text_input('Type a condition you would  like to look  at, clear this area if you want to see all your data!', 'Ex: pH 7.0')
-cuvettes_used = st.text_input('Type the number of cuvettes you used in your experiment, if you did a time trial,  [Number Used  = (# cuvettes) x (#UV readings per batch)]' ) 
+cuvettes_used = st.text_input('Type the number of measurements done in your experiment. If you did a time trial,  [measurements  = (# cuvettes) x (#UV readings per batch)]' ) 
 
 
 

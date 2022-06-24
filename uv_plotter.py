@@ -116,7 +116,7 @@ if table is not None:
     html_bytes = buffer.getvalue().encode()
 
     st.download_button(
-                label='Download HTML',
+                label='Download Interactive Plot',
                 data=html_bytes,
                 file_name='stuff.html',
                 mime='text/html'

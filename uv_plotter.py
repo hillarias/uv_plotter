@@ -110,14 +110,16 @@ if table is not None:
     plot = uv_vis_plotter(table)
     st.plotly_chart(plot, sharing="streamlit"  )
     
-    
-buffer = io.StringIO()
-fig.write_html(buffer, include_plotlyjs='cdn')
-html_bytes = buffer.getvalue().encode()
+    buffer = io.StringIO()
+    fig.write_html(buffer, include_plotlyjs='cdn')
+    html_bytes = buffer.getvalue().encode()
 
-st.download_button(
-            label='Download HTML',
-            data=html_bytes,
-            file_name='stuff.html',
-            mime='text/html'
-        )
+    st.download_button(
+                label='Download HTML',
+                data=html_bytes,
+                file_name='stuff.html',
+                mime='text/html'
+                 )
+
+    
+    

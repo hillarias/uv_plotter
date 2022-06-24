@@ -2,3 +2,5 @@ numpy
 pandas
 plotly
 plotly.express
+io
+base64

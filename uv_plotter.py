@@ -4,7 +4,7 @@ import numpy as np
 import csv
 import plotly
 import plotly.express as px
-import io
+import StringIO from io
 from PIL import Image
 
 

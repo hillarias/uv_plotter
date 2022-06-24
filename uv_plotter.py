@@ -4,8 +4,7 @@ import numpy as np
 import csv
 import plotly
 import plotly.express as px
-import StringIO from io
-from PIL import Image
+
 
 
 st.set_page_config(layout="wide")

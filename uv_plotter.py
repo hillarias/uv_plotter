@@ -112,7 +112,7 @@ if table is not None:
     st.plotly_chart(plot, sharing="streamlit"  )
     
     buffer = io.StringIO()
-    fig.write_html(buffer, include_plotlyjs='cdn')
+    plot.write_html(buffer, include_plotlyjs='cdn')
     html_bytes = buffer.getvalue().encode()
 
     st.download_button(

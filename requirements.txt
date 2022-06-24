@@ -2,4 +2,4 @@ numpy
 pandas
 plotly
 plotly.express
-
+io

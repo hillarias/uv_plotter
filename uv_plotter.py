@@ -96,7 +96,7 @@ def uv_vis_plotter(table):
         
     fig.update_yaxes(title_text= 'Abs' , range = [0,2.5])
     
-    fig.update_traces(line_color= labels, selector=dict(type='scatter'))
+    fig.update_traces(selector=dict(type='scatter'))
         
     fig.update_layout(scene = dict(
                         xaxis_title= 'Wavelenth (nm)',

@@ -118,7 +118,7 @@ if table is not None:
     st.download_button(
                 label='Download Interactive Plot',
                 data=html_bytes,
-                file_name='stuff.html',
+                file_name= 'UV_PLOT',
                 mime='text/html'
                  )
 
